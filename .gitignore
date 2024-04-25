@@ -1,0 +1,5 @@
+# Astro Framework
+/node_modules
+/.astro
+/.cache
+/public

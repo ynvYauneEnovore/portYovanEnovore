@@ -1,0 +1,96 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+---
+
+<!doctype html>
+<BaseLayout PageID="home">
+  <BaseCard image="/bg5.jpeg" title="home">
+    <h1>¡Hola! 👋</h1>
+    <p>
+      Soy <strong>Yovan R. Enovore</strong>, desarrollador software profesional.
+    </p>
+    <hr />
+
+    <p>
+      Portafolio personal proyectos, tutoriales, experiencias, y más.
+    </p>
+
+    <h2>Estructura del Proyecto:</h2>
+    <pre
+      class="astro-code github-dark mockup-code"
+      style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;"
+      tabindex="0"
+      data-language="sh"><code><span class="line"><span style="color:#B392F0">\portYovanEnovore</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> astro.config.mjs</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> categories.txt</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> index.png</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> package-lock.json</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> package.json</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> pnpm-lock.yaml</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> public</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> favicon.svg</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> fonts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> CascadiaCode.woff2</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> home.webp</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> profile.webp</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> README.md</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> README.zh-CN.md</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> src</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> components</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> BaseCard.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> BaseHead.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> blog</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> error.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> info.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> success.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> warning.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> Comment.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> EnvelopeCard.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> Footer.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> FormattedDate.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> Header.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> HeaderLink.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> License.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> page</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> FriendCard.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> TimeLine.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> ProfileCard.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> ProfileCardFooter.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> ProfileCardMenu.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> ThemeIcon.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> consts.ts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> content</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> blog</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> markdown-style-guide.md</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> using-mdx.mdx</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> config.ts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> env.d.ts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> layouts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> BaseLayout.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> pages</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> about.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> blog</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> tag</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#E1E4E8"> [...page].astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#E1E4E8"> [...slug].astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> friend.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> index.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> project.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> rss.xml.js</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> scripts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> copybutton.mjs</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> styles</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">     └──</span><span style="color:#9ECBFF"> global.css</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> tailwind.config.js</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> tsconfig.json</span></span>
+      <span class="line"><span style="color:#B392F0">└──</span><span style="color:#9ECBFF"> view.png</span></span>
+      <span class="line" /></code></pre>
+
+  
+    <p>
+     Este es un proyecto de código abierto, puedes ver el código fuente en <a href="https://github.com/ynvYauneEnovore/portYovanEnovore.git" target="_blank">GitHub</a>.
+     
+    </p>
+  </BaseCard>
+</BaseLayout>
