@@ -75,19 +75,6 @@
       setTheme("dracula");
     }
 
-
-    if (storedTheme) {
-      setTheme(storedTheme);
-    } else {
-      // 如果不存在本地存储的主题设置，则根据用户的偏好设置主题
-      const userPreferredTheme = window.matchMedia(
-        "(prefers-color-scheme: dracula)"
-      ).matches
-        ? "dracula"
-        : "winter";
-      setTheme(userPreferredTheme);
-    }
-
     const themeLabel1 = document.getElementById("themeLabel1");
     const themeToggle1 = document.getElementById("themeToggle1");
     const themeLabel2 = document.getElementById("themeLabel2");
