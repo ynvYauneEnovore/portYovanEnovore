@@ -7,21 +7,43 @@ import TimeLine from "../components/page/TimeLine.astro";
 <!doctype html>
 <BaseLayout PageID="about">
   <BaseCard title="About Frosti">
-    <h1 id="h1">¿Quien soy?</h1>
-    <hr />
-    <h2 id="h2">Mi nombre es: Yovan Enovore</h2>
-    <p>
-      Soy un entusiasta de la tecnología, especializado en desarrollo y diseño de sistemas. Me gusta resolver problemas creativos y he perfeccionado mis habilidades en el desarrollo de aplicaciones para diversas plataformas, gestión de bases de datos y la integración de soluciones de terceros. Me gusta trabajar en equipo, aprender cosas nuevas y estar al tanto de las últimas tendencias tecnológicas. 
-      <br>
-      ¡Estoy emocionado por seguir innovando en este emocionante campo!
-    </p>
-    <hr />
+    <h1 id="h1">Habiliades</h1>
 
-    <h2 id="h2">Línea del tiempo de aprendizaje</h2>
+    <h2 id="h2">Tecnologías utilizadas</h2>
+
+
+    <h5 id="h2">Frameworks Backend</h5>
     <ul class="timeline timeline-vertical">
       <li>
         <TimeLine time="Mar 17, 2019" left="true" check="true">
-          Desarrollo en Laravel</TimeLine
+          Laravel</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>               
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time="Apr 13, 2022" left="true" check="true">
+          .NET</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li> 
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time="Apr 13, 2020" left="true" check="true">
+          NestJS</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>         
+      <li>
+        <hr class="bg-neutral-content" />
+        <TimeLine time="WAITING"> Esperando...</TimeLine>
+      </li>
+    </ul>
+    <h5 id="h2">Frameworks Frontend</h5>
+    <ul class="timeline timeline-vertical">
+      <li>
+        <TimeLine time="Mar 17, 2019" left="true" check="true">
+          Vue.js</TimeLine
         >
         <hr class="bg-primary" />
       </li>
@@ -29,37 +51,24 @@ import TimeLine from "../components/page/TimeLine.astro";
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Apr 13, 2022" left="true" check="true">
-          Desarrollo en React</TimeLine
+          React</TimeLine
         >
         <hr class="bg-primary" />
       </li>    
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Apr 13, 2022" left="true" check="true">
-          Desarrollo en .NET</TimeLine
+          Blade</TimeLine
         >
         <hr class="bg-primary" />
-      </li> 
-      <li>
-        <hr class="bg-primary" />
-        <TimeLine time="Apr 13, 2020" left="true" check="true">
-          Desarrollo en NestJS</TimeLine
-        >
-        <hr class="bg-primary" />
-      </li>   
-      <li>
-        <hr class="bg-primary" />
-        <TimeLine time="Mar 23, 2024" check="true">
-          Desarrollo de NestJS</TimeLine
-        >
-        <hr class="bg-primary" />
-      </li> 
+      </li>              
       <li>
         <hr class="bg-neutral-content" />
         <TimeLine time="WAITING"> Esperando...</TimeLine>
       </li>
     </ul>
   </BaseCard>
+  
 </BaseLayout>
 
 <style></style>
