@@ -66,8 +66,16 @@
       localStorage.setItem("theme", theme);
     };
 
-    // 初始化时检查是否存在本地存储的主题设置
+    // cambio de tema
     const storedTheme = localStorage.getItem("theme");
+    if (storedTheme) {
+      setTheme(storedTheme);
+    } else {
+      // Si no existe un tema almacenado localmente, establece el tema oscuro por defecto
+      setTheme("dracula");
+    }
+
+
     if (storedTheme) {
       setTheme(storedTheme);
     } else {
