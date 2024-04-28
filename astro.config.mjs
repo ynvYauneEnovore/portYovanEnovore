@@ -6,7 +6,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 export default defineConfig({
-  site: 'https://www.saroprock.com',
+  site: 'https://www.yovanenovore.cloud',
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     remarkPlugins: [

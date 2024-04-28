@@ -1,7 +1,7 @@
 ---
-title: 'Markdown Style Guide'
+title: 'Estilos de marcas'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-pubDate: 'Jul 01 2024'
+pubDate: 'Jul 01 2023'
 image: '/home.webp'
 tags:
   - Makrdown

@@ -1,6 +1,146 @@
 ---
+import BaseCard from "../components/BaseCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+
 ---
 
 <!doctype html>
-<meta http-equiv="refresh" content="0;url=/es/" />
 
+<BaseLayout PageID="home">
+  <div class="bg-base-300">
+  <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 rounded-3xl">
+    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80&blend=111827&blend-mode=multiply&sat=-100&exp=15" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover">
+    <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="absolute -bottom-8 -left-96 -z-10 transform-gpu blur-3xl sm:-bottom-64 sm:-left-40 lg:-bottom-32 lg:left-8 xl:-left-10" aria-hidden="true">
+        <div class="aspect-[1266/975] w-[79.125rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+      <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
+        <h2 class="text-base font-semibold leading-8 text-indigo-400">¡Hola! 👋</h2>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Binevenido</p>
+        <p class="mt-6 text-lg leading-8 text-gray-300">Soy Yovan R. Enovore, Desarrollador de software profesional. Portafolio personal proyectos, tutoriales, experiencias, y más.</p>
+      </div>
+      <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+        <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+          <dt class="text-sm leading-6">Líneas de código</dt>
+          <dd class="order-first text-3xl font-semibold tracking-tight">18,000+</dd>
+        </div>
+        <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+          <dt class="text-sm leading-6">Código en producción</dt>
+          <dd class="order-first text-3xl font-semibold tracking-tight">15%</dd>
+        </div>
+        <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+          <dt class="text-sm leading-6">Código en pruebas</dt>
+          <dd class="order-first text-3xl font-semibold tracking-tight">120,000+</dd>
+        </div>
+        <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+          <dt class="text-sm leading-6">Ingresos</dt>
+          <dd class="order-first text-3xl font-semibold tracking-tight">$2,200+</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+  </div>
+
+  
+  <div class="bg-base-300 py-10 sm:py-10">
+    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
+        <img class="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0" src="https://raw.githubusercontent.com/ynvYauneEnovore/portYovanEnovore/main/public/1.jpg" alt="">
+        <div class="absolute inset-0 bg-gray-900/90 mix-blend-multiply"></div>
+        <div class="absolute -left-80 -top-56 transform-gpu blur-3xl" aria-hidden="true">
+          <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-[0.45]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+        <div class="hidden md:absolute md:bottom-16 md:left-[50rem] md:block md:transform-gpu md:blur-3xl" aria-hidden="true">
+          <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-25" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+        <div class="relative mx-auto max-w-2xl lg:mx-0">
+          <figure>
+            <blockquote class="mt-6 text-lg font-semibold text-white sm:text-xl sm:leading-8">
+              <p>“Especialista en desarrollo y diseño de sistemas. Me gusta resolver problemas de menara creativa mejorando cada vez mis habilidades en el desarrollo de aplicaciones para diversas plataformas, gestión de bases de datos y la integración de soluciones de terceros. Me gusta trabajar en equipo, aprender cosas nuevas y estar al tanto de las últimas tendencias tecnológicas.”</p>
+            </blockquote>     
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <BaseCard image="https://raw.githubusercontent.com/ynvYauneEnovore/portYovanEnovore/main/public/8.png" title="YovanEnovore">
+     <h2>Estructura del Proyecto:</h2>
+    <pre
+      class="astro-code github-dark mockup-code"
+      style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;"
+      tabindex="0"
+      data-language="sh"><code><span class="line"><span style="color:#B392F0">\portYovanEnovore</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> astro.config.mjs</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> categories.txt</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> index.png</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> package-lock.json</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> package.json</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> pnpm-lock.yaml</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> public</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> favicon.svg</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> fonts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> CascadiaCode.woff2</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> home.webp</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> profile.webp</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> README.md</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> README.zh-CN.md</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> src</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> components</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> BaseCard.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> BaseHead.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> blog</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> error.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> info.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> success.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> warning.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> Comment.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> EnvelopeCard.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> Footer.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> FormattedDate.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> Header.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> HeaderLink.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> License.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> page</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> FriendCard.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> TimeLine.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> ProfileCard.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> ProfileCardFooter.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> ProfileCardMenu.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> ThemeIcon.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> consts.ts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> content</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> blog</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> markdown-style-guide.md</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> using-mdx.mdx</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> config.ts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> env.d.ts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> layouts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> BaseLayout.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> pages</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> about.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> blog</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> tag</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#E1E4E8"> [...page].astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#E1E4E8"> [...slug].astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> friend.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> index.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> project.astro</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> rss.xml.js</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  ├──</span><span style="color:#9ECBFF"> scripts</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#F97583">  |</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> copybutton.mjs</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">  └──</span><span style="color:#9ECBFF"> styles</span></span>
+      <span class="line"><span style="color:#F97583">|</span><span style="color:#B392F0">     └──</span><span style="color:#9ECBFF"> global.css</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> tailwind.config.js</span></span>
+      <span class="line"><span style="color:#B392F0">├──</span><span style="color:#9ECBFF"> tsconfig.json</span></span>
+      <span class="line"><span style="color:#B392F0">└──</span><span style="color:#9ECBFF"> view.png</span></span>
+      <span class="line" /></code></pre>
+
+  
+    <p>
+     Este es un proyecto de código abierto, puedes ver el código fuente en <a href="https://github.com/ynvYauneEnovore/portYovanEnovore.git" target="_blank">GitHub</a>.
+     
+    </p>
+  </BaseCard>
+</BaseLayout>
