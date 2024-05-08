@@ -24,14 +24,12 @@ const {
 } = Astro.props;
 ---
 
-<html lang="es-BO" class="bg-base-300">
+<html lang="es-BO" class="">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@waline/client@v3/dist/waline.css"
-    />
+  
     <BaseHead title={site_title} description={site_description} image={image} />
+  
     {TRANSITION_API && <ViewTransitions />}
   </head>
   <body>
@@ -51,7 +49,9 @@ const {
       </div>
     </main>
     <ThemeIcon />
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5329d749d4dd4c2a9ce38d5dd16c6c48"}'></script>
-
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "5329d749d4dd4c2a9ce38d5dd16c6c48"}'></script>
   </body>
 </html>
