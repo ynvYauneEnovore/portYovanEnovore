@@ -8,7 +8,7 @@ import TimeLine from "../components/page/TimeLine.astro";
 <BaseLayout PageID="about">
   <BaseCard title="About Frosti">
     <h1 id="h1">Habiliades</h1>
-   <h2 id="h2">Tecnologías utilizadas</h2>
+    <h2 id="h2">Tecnologías utilizadas</h2>
     <h5 id="h2">Frameworks Backend</h5>
     <ul class="timeline timeline-vertical">
       <li>
@@ -40,11 +40,7 @@ import TimeLine from "../components/page/TimeLine.astro";
           ></TimeLine
         >
         <hr class="bg-primary" />
-      </li>
-      <li>
-        <hr class="bg-neutral-content" />
-        <TimeLine time="WAITING"> Esperando...</TimeLine>
-      </li>
+      </li>    
     </ul>
     <h5 id="h2">Frameworks Frontend</h5>
     <ul class="timeline timeline-vertical">
@@ -54,7 +50,6 @@ import TimeLine from "../components/page/TimeLine.astro";
         >
         <hr class="bg-primary" />
       </li>
-
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Dec 06, 2021" left="true" check="true">
@@ -76,10 +71,6 @@ import TimeLine from "../components/page/TimeLine.astro";
         >
         <hr class="bg-primary" />
       </li>
-      <li>
-        <hr class="bg-neutral-content" />
-        <TimeLine time="WAITING"> Esperando...</TimeLine>
-      </li>
     </ul>
     <h5 id="h2">Despliegues CD/CI</h5>
     <ul class="timeline timeline-vertical">
@@ -93,34 +84,41 @@ import TimeLine from "../components/page/TimeLine.astro";
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Apr 11, 2020" left="true" check="true">
-          <a href="https://cloud.google.com" target="_blank">Google Cloud</a></TimeLine
+          <a href="https://cloud.google.com" target="_blank">Google Cloud</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Nov 13, 2020" left="true" check="true">
-          <a href="https://aws.amazon.com" target="_blank">Amazon Web Services</a></TimeLine
+          <a href="https://aws.amazon.com" target="_blank"
+            >Amazon Web Services</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
       <li>
         <hr class="bg-primary" />
-        <TimeLine time="Apr 03, 2019" left="true" check="true"> 
-          <a href="https://azure.microsoft.com/es-es" target="_blank">Azure</a></TimeLine
-        <hr class="bg-primary" />
+        <TimeLine time="Apr 03, 2019" left="true" check="true">
+          <a href="https://azure.microsoft.com/es-es" target="_blank">Azure</a
+          ></TimeLine
+        >
       </li>
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Set 20, 2023" left="true" check="true">
-          <a href="https://www.netlify.com" target="_blank">Netlify</a></TimeLine
+          <a href="https://www.netlify.com" target="_blank">Netlify</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Oct 23, 2022" left="true" check="true">
-          <a href="https://www.digitalocean.com" target="_blank">Digital Ocean</a></TimeLine
+          <a href="https://www.digitalocean.com" target="_blank"
+            >Digital Ocean</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
@@ -134,21 +132,18 @@ import TimeLine from "../components/page/TimeLine.astro";
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Apr 01, 2023" left="true" check="true">
-          <a href="https://www.railway.app" target="_blank">Railway</a></TimeLine
+          <a href="https://www.railway.app" target="_blank">Railway</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
-      <li>
-        <hr class="bg-neutral-content" />
-        <TimeLine time="WAITING"> Esperando...</TimeLine>
-      </li>
     </ul>
-
     <h5 id="h2">Librerías CSS</h5>
     <ul class="timeline timeline-vertical">
       <li>
         <TimeLine time="Mar 17, 2019" left="true" check="true">
-          <a href="https://tailwindcss.com" target="_blank">Tailwind</a></TimeLine
+          <a href="https://tailwindcss.com" target="_blank">Tailwind</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
@@ -156,30 +151,26 @@ import TimeLine from "../components/page/TimeLine.astro";
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Apr 13, 2022" left="true" check="true">
-          <a href="https://getbootstrap.com" target="_blank">Bootstrap</a></TimeLine
+          <a href="https://getbootstrap.com" target="_blank">Bootstrap</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Apr 13, 2022" left="true" check="true">
-          <a href="https://materializecss.com" target="_blank">Materialize</a></TimeLine
+          <a href="https://materializecss.com" target="_blank">Materialize</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
       <li>
         <hr class="bg-primary" />
-        <TimeLine time="Apr 13, 2022" left="true" check="true"> 
+        <TimeLine time="Apr 13, 2022" left="true" check="true">
           <a href="https://bulma.io" target="_blank">Bulma</a></TimeLine
-        <hr class="bg-primary" />
-      </li>
-
-      <li>
-        <hr class="bg-neutral-content" />
-        <TimeLine time="WAITING"> Esperando...</TimeLine>
+        >
       </li>
     </ul>
-
     <h5 id="h2">Manejo de Bases de Datos</h5>
     <ul class="timeline timeline-vertical">
       <li>
@@ -191,14 +182,47 @@ import TimeLine from "../components/page/TimeLine.astro";
       <li>
         <hr class="bg-primary" />
         <TimeLine time="Apr 13, 2022" left="true" check="true">
-          <a href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads" target="_blank">
-            SQL Server</a></TimeLine
+          <a
+            href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads"
+            target="_blank"
+          >
+            SQL Server</a
+          ></TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+    </ul>
+    <h5 id="h2">Proxy inverso</h5>
+    <ul class="timeline timeline-vertical">
+      <li>
+        <TimeLine time="Mar 27, 2023" left="true" check="true">
+          <a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a
+          ></TimeLine
         >
         <hr class="bg-primary" />
       </li>
       <li>
-        <hr class="bg-neutral-content" />
-        <TimeLine time="WAITING"> Esperando...</TimeLine>
+        <hr class="bg-primary" />
+        <TimeLine time="Apr 13, 2022" left="true" check="true">
+          <a href="https://www.haproxy.org/" target="_blank">HAProxy</a
+          ></TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+    </ul>
+    <h5 id="h2">Servidores de aplicaciones</h5>
+    <ul class="timeline timeline-vertical">
+      <li>
+        <TimeLine time="Mar 17, 2016" left="true" check="true">
+          <a href="https://apache.org/" target="_blank">Apache</a></TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <TimeLine time="Mar 17, 2018" left="true" check="true">
+          <a href="https://nginx.org/" target="_blank">Nginx</a></TimeLine
+        >
+        <hr class="bg-primary" />
       </li>
     </ul>
     <h5 id="h2">Android</h5>
@@ -208,10 +232,6 @@ import TimeLine from "../components/page/TimeLine.astro";
           <a href="https://kotlinlang.org/" target="_blank">Kotlin</a></TimeLine
         >
         <hr class="bg-primary" />
-      </li>
-      <li>
-        <hr class="bg-neutral-content" />
-        <TimeLine time="WAITING"> Esperando...</TimeLine>
       </li>
     </ul>
   </BaseCard>
